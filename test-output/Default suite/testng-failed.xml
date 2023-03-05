@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.purchase_flight.SDP_Blazedemo.Purchase_Flight">
+        <methods>
+          <include name="destination_City"/>
+          <include name="departure_City"/>
+          <include name="browser_Launch"/>
+          <include name="screen_Shot"/>
+          <include name="url_Launch"/>
+          <include name="price"/>
+          <include name="enter_the_Details"/>
+        </methods>
+      </class> <!-- com.purchase_flight.SDP_Blazedemo.Purchase_Flight -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
